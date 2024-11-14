@@ -10,7 +10,7 @@ public class Bill3 {
         double d;
         d = Double.parseDouble(args[3]);
         double e = Math.ceil( d /3);
-        System.out.println("Dear "+name3+ ", "+name2+", and "+name1+": pay "+e " Shekels each");
+        System.out.println("Dear "+name3+ ", "+name2+", and "+name1+": pay "+e+" Shekels each");
         //System.out.println(name3+ ", "+ name2+ " and "+name1+" "+ d);
         //System.out.println("dear " +name3 + ", " +name2+", and "+ name1+ ": pay " + e + " shekels each");
     }
